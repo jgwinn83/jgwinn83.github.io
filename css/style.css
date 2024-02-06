@@ -1,0 +1,99 @@
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(126, 126, 243), rgb(167, 85, 167));
+    
+}
+
+header{
+    text-align: center;
+    background-color: rgb(66, 58, 58);
+    color: aliceblue;
+
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    align-content: center;
+}
+
+.button {
+    margin: 20px;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    font: bold 50px Arial;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    color: rgb(86, 82, 82);
+    padding: 2px 6px 2px 6px;
+    border-radius: 80px;
+    border-top: 1px solid aquamarine;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 1px solid aquamarine;
+  }
+
+.hide{
+    display: none;
+}
+
+
+a:hover .hide{
+    display: block;
+    color: aquamarine;
+}
+
+img{
+    max-width: 400px;
+    max-height: auto;
+    border-radius: 20px;
+}
+
+img:hover{
+    background-color: aquamarine;
+    max-width: 395px;
+}
+
+.col-pic{
+    padding: 10px;
+}
+
+.col-bio{
+    background-color: rgb(66, 58, 58);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div{
+    display: grid;
+    justify-items: center;
+}
+
+footer{
+    text-align: center;
+    
+    bottom: 0;
+}
+
+.skill-div{
+    display: grid;
+    grid-row: 1;
+    padding: 5px;
+    background-color: rgb(66, 58, 58);
+    color: aquamarine;
+    border: solid;
+}
